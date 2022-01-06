@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-image: radial-gradient(circle at 50% -6.64%, #9480df 0, #8176dc 25%, #6c6cd8 50%, #5263d4 75%, #2e5ad1 100%);
+    width: 100%;
+}
+
+    header nav ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+header nav .nav-right li{
+    margin: 30px;
+}
+
+header nav .nav-left li{
+    margin: 10px;
+}
+
+header nav .nav-left{
+    justify-content: left;
+    padding-left: 30px;
+}
+
+header nav .nav-right{
+    justify-content: right;
+}
+
+ nav .nav-left li a img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+nav .nav-left .imagen{
+    width: 50px;
+    height: 50px;
+}
+
+nav .nav-left .imagen{
+    margin-left: 0;
+}
+
+nav .nav-left li a{
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav .nav-left .nombre{
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #d1d6e4;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    color: rgb(112, 112, 112);
+}
+
+main .container{
+    display: grid;
+    align-items: center;
+    height: 70vh;
+    background:#7054d8;
+    font-family: 'DM Sans' sans-serif;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-container{
+    display: grid;
+    width: 600px;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+    padding-top: 0px;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .container .card-container .foto a img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin: 20px 30px;
+    transition: .2s;
+}
+
+.foto{
+    border-right: 1px solid #ddd;
+
+}
+
+.foto, .datos{
+    padding: 20px;
+    text-align: center;
+}
+
+.foto a{
+    position: relative;
+    display: block;
+}
+
+main .container .card-container .foto a img:hover {
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .2);
+}
+
+.foto h2{
+    color: #f0522a;
+}
+
+.foto h4{
+    margin-bottom: 20px;
+}
+
+.datos{
+    position: relative;
+}
+
+.datos p{
+    margin: 20px 30px;
+}
+
+.datos .social{
+    margin-top: 25px;
+}
+
+.datos .social a{
+    color: #f0522a;
+    padding: 0 15px;
+}
+
+.datos .social a i{
+    font-size: 30px;
+}
