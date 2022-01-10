@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #4facfe5e 0%, #00f1fe21 100%);
 }
 
 a{
@@ -20,7 +21,7 @@ header nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-image: radial-gradient(circle at 50% -6.64%, #9480df 0, #8176dc 25%, #6c6cd8 50%, #5263d4 75%, #2e5ad1 100%);
+    background-image: linear-gradient(to right, #2a9cff 0%, #009faa 100%);
     width: 100%;
 }
 
@@ -82,6 +83,7 @@ footer{
     background-color: #d1d6e4;
 }
 
+
 footer ul{
     list-style: none;
 }
@@ -94,7 +96,7 @@ main .container{
     display: grid;
     align-items: center;
     height: 70vh;
-    background:#7054d8;
+    background-image: #fff;
     font-family: 'DM Sans' sans-serif;
     padding: 0 20px;
     grid-template-columns: 1fr 1fr;
@@ -104,7 +106,7 @@ main .container{
     display: grid;
     width: 600px;
     height: auto;
-    background: #fff;
+    background-image: linear-gradient(to right, #2a9cff 0%, #0098a0 100%);
     border-radius: 10px;
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
     padding-top: 0px;
@@ -127,6 +129,7 @@ main .container .card-container .foto a img{
 .foto, .datos{
     padding: 20px;
     text-align: center;
+    color: white;
 }
 
 .foto a{
@@ -139,11 +142,12 @@ main .container .card-container .foto a img:hover {
 }
 
 .foto h2{
-    color: #f0522a;
+    color: #ffffff;
 }
 
 .foto h4{
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .datos{
@@ -159,10 +163,18 @@ main .container .card-container .foto a img:hover {
 }
 
 .datos .social a{
-    color: #f0522a;
+    color: #ffffff;
     padding: 0 15px;
 }
 
 .datos .social a i{
     font-size: 30px;
 }
+
+main .container .column-2 p{
+    color: rgb(73, 73, 73);
+} 
+
+main .container .column-2 h2{
+    color: rgb(73, 73, 73);
+} 
