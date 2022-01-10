@@ -178,3 +178,40 @@ main .container .column-2 p{
 main .container .column-2 h2{
     color: rgb(73, 73, 73);
 } 
+
+main .exp-acad{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .exp-acad h1{
+    text-align: center;
+}
+
+main .exp-acad table{
+    border: 1px solid black;
+}
+
+tr, td{
+
+    border: 2px solid black;
+    vertical-align: top;
+}
+
+main .exp-acad table tr h3{
+    text-align: center;
+}
+
+main .exp-laboral table{
+    border: 1px solid black;
+}
+
+main .exp-laboral h1{
+    text-align: center;
+}
+
+main .exp-laboral table tr h3{
+    text-align: center;
+}
