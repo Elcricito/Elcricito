@@ -21,10 +21,11 @@ ul{
 }
 
 .navbar{
-    background: rgb(12, 12, 12);
+    background-color: rgb(12, 12, 12);
     padding: 3rem 2rem;
     height: 0rem;
     min-height: 12vh;
+    z-index: 1;
 }
 
 .navbar .navbar-brand a{
@@ -109,3 +110,11 @@ ul{
 .navbar-nav .btn:hover{
     background-color: #0a3d62;
 }
+ h1{
+     z-index: 0;
+ }
+
+ .navbar-collapse{
+     background-color: white;
+     padding-top: 0;
+ }
