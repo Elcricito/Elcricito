@@ -20,6 +20,10 @@ ul{
     list-style-type: none;
 }
 
+.navbar{
+    z-index: 1;
+}
+
 .navbar .navbar-brand a{
     padding: 1rem 0;
     display: block;
@@ -71,7 +75,7 @@ ul{
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
-    padding: 1.8rem;
+    padding: 1rem 3rem;
     font-size: 1.4rem;
     position: relative;
 }
@@ -86,7 +90,7 @@ ul{
 }
 
 .navbar-nav button{
-    padding: 1.2rem 0;
+    padding: 0;
 }
 
 .navbar-nav .btn {
