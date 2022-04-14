@@ -15,77 +15,26 @@
 </head>
 <body>
   <main>
-    <!--BARRA DE NAVEGACIÓN-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <!-- Image and text -->
-            <a class="navbar-brand" href="#">
-                Cristian Muñoz
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conocimientos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Portafolio
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Mis bases de conocimiento</a></li>
-                  <li><a class="dropdown-item" href="#">Manuales</a></li>
-                  <li><a class="dropdown-item" href="#">YouTube</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="navbar-nav ms auto">
-                <button class="btn">Descarga mi CV</button>
-            </ul>
-          </div>
-        </div>
+    
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto"><a href="#">Cristian Muñoz</a></h1>
+
+      <!-- Menú de navegación-->
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#">Introducción</a></li>
+          <li><a href="#">Acerca</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Contacto</a> </li>
+        </ul>
+
       </nav>
 
-      <!--ESPACIO--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    </header>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-8"><hr></div>
-        </div>
-      </div>
-   
-      <!--PRESENTACIÓN------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4" style="text-align: center;">
-              <img src="/img/2.png" class="fluid-image" alt="Foto de perfil" width="75%">
-            </div>
-            <div class="col-md-8" style="text-align: center;">
-              <h3 style="text-align: center;">Cristian Daniel Muñoz Botero</h3>
-              <hr>
-              <p><b>Técnico profesional en sistemas</b></p>
-              <p>CETASDI</p>
-              <p><b>Desarrollador de software</b></p>
-              <p><b>Actual estudiante de ingeniería de sistemas</b></p>
-              <p>UdeA</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-      
-    </main>
+  </main>
       
     <!--SCRIPTS JS-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
